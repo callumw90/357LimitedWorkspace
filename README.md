@@ -1,2 +1,8 @@
 # 357LimitedWorkspace
-357 Ltd. Workspace for Group - Dominic, Scott, Callum, Rebecca
+357 Ltd. Workspace for Group
+
+### Group Members:
+  - Dominic
+  - Scott
+  - Callum
+  - Rebecca
