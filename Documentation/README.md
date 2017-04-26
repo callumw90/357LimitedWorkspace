@@ -4,7 +4,5 @@ Documentation:
 
 ### File Descriptions:
 - **ProjectPlan** - Contains Times and Tasks assigned to each member of the Team (Correct as of 25/04/2017)
-- **Requirements Specifications** - Text-based File containing specifications for Website
-- **Requirements spex** - PDF-based file containing specifications for Website
 
 (remember to update if more file are added to this location!)
