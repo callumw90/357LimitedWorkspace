@@ -1,4 +1,4 @@
-# 357LimitedWorkspace
+# 357LimitedWorkspace - Design Documentation
 357 Ltd. Workspace for Group
 Design Documentation:
 
