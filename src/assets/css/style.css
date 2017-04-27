@@ -94,3 +94,21 @@ img.centered
     margin-left: auto;
     margin-right: auto
 }
+
+#rotating-image-wrapper
+{
+	position: relative;
+    width: 347px;
+    height: 347px;
+	
+}
+
+.rotating-image
+{
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
