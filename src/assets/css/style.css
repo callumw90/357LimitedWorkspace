@@ -1,0 +1,96 @@
+/* Website CSS */
+body
+	{
+		font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+		font-style: normal;
+		font-variant: normal;
+		font-weight: 500;
+		line-height: 26.4px;
+		margin-left:40px;
+		margin-right:40px;
+	}
+
+h1
+	{
+		padding-top:1px;
+		padding-bottom:10px;
+		background-color: black;
+		height: 180px;
+		color:white;
+		text-align:center;
+	}
+
+h2
+	{
+		padding-top:30px;
+		padding-bottom:40px;
+		padding-left:40px;
+		padding-right:40px;
+		font-size:15px;
+		text-align:center;
+	}
+	
+td
+	{
+		padding-left:20px;
+		padding-right:20px;
+		margin-bottom:10px;
+		border-right: 2px solid #000;
+	}
+
+img
+	{
+		position:relative;
+	}
+	
+table td:first-child {
+	border-left: none;
+}
+
+table td:last-child {
+	border-right: none;
+}
+
+footer
+	{
+		position: relative;
+		margin-top:40px;
+		padding-bottom:30px;
+		background-color: #363636;
+		height: 180px;
+		color:white;
+	}
+	
+.newspaper 
+	{
+		-webkit-column-count: 3; /* Chrome, Safari, Opera */
+		-moz-column-count: 3; /* Firefox */
+		column-count: 3;
+		-webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+		-moz-column-gap: 40px; /* Firefox */
+		column-gap: 40px;
+		-webkit-column-rule-style: solid; /* Chrome, Safari, Opera */
+		-moz-column-rule-style: solid; /* Firefox */
+		column-rule-style: solid;
+	}
+	
+table.center 
+	{
+		margin-left:auto; 
+		margin-right:auto;
+	}
+	
+table.footer
+	{
+		color:#C6C6C0;
+		display: block;
+	}
+	
+img.centered
+{
+	display: block;
+	margin-top:50px;
+	margin-bottom:50px;
+    margin-left: auto;
+    margin-right: auto
+}
