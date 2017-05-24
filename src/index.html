@@ -1,6 +1,16 @@
 <html>
 
+	<script>
+	
+	alert("Welcome to 357 Ltd!");
+	
+	function pageInfo() {
+		alert("This is the Home Page: \n From here, you can find out all basic informaion about our services!");
+	}
+	</script>
+
 	<head>
+		<title>357 Ltd - Home</title>
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js?ver=3.0.1"> </script>
 		<script type="text/javascript" src="assets/js/rotating-image.js"> </script>
@@ -22,34 +32,35 @@
 	<table class="center">
 	
 		<tr>
-			
-			<th><h3>Resources</h3></th>
-			<th><h3>Shop</h3></th>
-			<th><h3>News</h3></th>
+			<th><h3><a href="products.html">Product Information</a></h3></th>
+			<th><h3><a href="news.html">News/Articles</a></h3></th>
+			<th><h3><a href="shop.html">Shop</a></h3></th>
 		</tr>
 		
 		<tr>
 			
 			<th><img src="assets/img/resource-search.jpg" width="347" height="347" /></th>
-			<th><div id="rotating-image-wrapper">
+			<th><img src="assets/img/newspaper-reading.jpg" width="347" height="347" /></th>
+						<th><div id="rotating-image-wrapper">
 			<img class="rotating-image" src="assets/img/pc-acer.jpg" alt="computer" width="347" height="347" />
 			<img class="rotating-image" src="assets/img/mouse-pc.jpg" alt="mouse" width="347" height="347" />
 			<img class="rotating-image" src="assets/img/keyboard.jpg" alt="keyboard" width="347" height="347" />
 			<img class="rotating-image" src="assets/img/windows-7-disc.jpg" alt="software" width="347" height="347" /></th></div>
-			<th><img src="assets/img/newspaper-reading.jpg" width="347" height="347" /></th>
+
 		</tr>
+
 		
 		<tr>
 			<td>
-				<p><i>use the space to explain what the section is about</i></p>
+				<p><i>Check out our Product Information page to find out what we sell and why!</i></p>
 			</td>
 			
 			<td>
-				<p><i>use the space to explain what the section is about</i></p>
+				<p><i>Keep yourself up to date on our latest changes/updates!</i></p>
 			</td>
 			
 			<td>
-				<p><i>use the space to explain what the section is about</i></p>
+				<p><i>Check out the Products that we have in stock!</i></p>
 			</td>
 		</tr>
 		
@@ -63,7 +74,10 @@
 	
 	<footer>
 		<h2>
-			This is a footer
+		
+			<p><input id="clickMe" type="button" value="What Page is This?" onclick="pageInfo();" /></p>
+		
+			<p>357 Ltd - Official Website</p>
 			
 				<table class="center">
 	
@@ -74,29 +88,33 @@
 			<th><h3>Customer Service</h3></th>
 			<th><h3>About Us</h3></th>
 			<th><h3>Social Contact</h3></th>
-			<th><h3>Social Contact</h3></th>
 		</tr>
 		
 		<tr>
 			<td>
-				<p><i>use the space to explain what the section is about</i></p>
+				<p><i>Check out all of the products that we have on sale by going to our <a href="products.html">Products Page</a></i></p>
 			</td>
 		
 			<td>
-				<p><i>use the space to explain what the section is about</i></p>
+				<p><i>You can Contact us at:</i></p>
+				<p><b>Telephone:</b></p>
+				<p>00000-000-000</p>
+				<p><b>Email:</b></p>
+				<p>357Ltd@example.com</p>
 			</td>
 		
 			<td>
-				<p><i>use the space to explain what the section is about</i></p>
+				<p><i>357 Ltd is a Central-Scotland based company that offer a large range of useful items and resources for students to help support them through their HN Computing course.</i></p>
 			</td>
 			
 			<td>
-				<p><i>use the space to explain what the section is about</i></p>
+				<p><i>You can Follow us on:</i></p>
+				<p><b>Facebook:</b></p>
+				<p>Facebook Page</p>
+				<p><b>Twitter:</b></p>
+				<p>@twitterUsername</p>
 			</td>
-			
-			<td>
-				<p><i>use the space to explain what the section is about</i></p>
-			</td>
+		
 			
 		</tr>
 		
