@@ -111,3 +111,29 @@ img.centered
 	margin-left: auto;
 	margin-right: auto;
 }
+
+.item
+{
+	height: 1200;
+	width: 1200;
+	overflow: hidden;	
+}
+
+.active item
+{
+	height: 1200;
+	width: 1200;
+	overflow: hidden;
+	vertical-align:middle;
+}
+
+#myCarousel
+{
+	height: 650;
+	width: 1200;
+	margin: auto;
+}
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
