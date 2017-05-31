@@ -5,6 +5,6 @@
   - Dominic
   - Scott
   - Callum
-  - Rebecca
+  - Rebeca
 
 https://github.com/ScottehBoeh/357LimitedWorkspace/invitations
